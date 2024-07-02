@@ -1,0 +1,567 @@
+
+*{ 
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+  }
+  
+  
+  header{
+      widht: 100%;
+      padding: 10px 0px;
+      margin-top: -10px;
+      display: flex;
+      justify-content:space-around;
+      align-items:center;
+  }
+  
+  .container .menu-box{
+    justify-content: space-between;
+    width:1140px;
+    margin:auto;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+   }
+  
+  .contaner{
+      width:1140px;
+      margin:auto;
+    margin-bottom: 0px;
+      display: flex;
+      /* justify-content: center; */
+      /* align-items: center;   */
+  }
+  
+  
+  
+  .logo, .bttns{
+      flex-basis:18%;
+      
+  }
+  
+  .logo a img{
+      width: 175px;
+    }
+  .menu{
+      flex-basis: 50%;
+      display: flex;
+  }
+  
+  .menu ul{
+  padding:10px;
+  }
+  
+  .menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 3px auto;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 5px;
+    font-weight: bold;
+    color: #0e72cc;
+  }
+ 
+  
+  .bttns button {
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    background-color:#0e72cc;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    display: inline-block;
+}
+.bttns button:hover{
+    background-color:#08aff1ea;
+}
+
+/* .submitbtnss{
+    margin:0px;
+   font-size: 13px;
+    background-color:blue;
+    color: red;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    align-content: center;
+    } */
+
+
+/* .form-section{
+    
+    width: 100%;
+    background-color:blue;
+    height: 100vh;
+}
+.form-section:hover{
+    background-color: aqua;
+    transition: 0.8s;
+} */
+
+
+/* .form-box{
+margin-top: 70px;
+width: 900px;
+height: 70vh;
+background-color:white;
+display: flex;   
+}
+
+.left-side, .right-side{
+  flex-basis: 50%;
+}
+.left-side{
+    background: url(../img/cc.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.right-side{
+padding: 50px 50px;
+margin-bottom: 50px;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0px;
+    background-color: white; */
+}
+/* .right-side h1{
+text-align: center;
+margin-bottom: 20px;
+margin-top: -25px;
+}
+.right-side form{
+    padding: auto;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    } */
+.name input{
+    width: 49.1%;
+    }
+.name .first-name{
+    margin-right: 2px;
+  }
+.condition input{
+    width: auto;
+}
+.condition span{
+    margin-bottom: 5px;
+   }
+
+.condition submitbtns{
+    box-sizing: border-box;
+    background-color: blue;
+    color: white;
+   }
+
+   .submitbtnss:hover{
+    box-sizing: border-box;
+    background-color: green;
+    color:aqua;
+   }
+
+
+input::placeholder, textarea::placeholder{
+font-family: poppins;
+}
+select{
+font-family: poppins;
+}
+
+/*************************
+****     Global CSS    ****
+**************************/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+
+h2{text-align: center;
+    margin-top:  40px;
+    font-size: 50px;
+    font-style: bold;
+    }
+
+   
+a, a:hover{
+    text-decoration: none;
+}
+
+
+/* secton01 css file */
+.sec01{
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    width: 95%;
+    height: 75vh;
+    border-radius: 8px;
+    }
+
+    .left, .right{
+        flex-basis: 50%;
+    }
+    .sec01 .right{ background: url(../img/1.PNG) center center no-repeat;
+        background-size: cover;
+        }
+        .sec01 .left{
+            margin-left: 70px;
+            color: #0e72cc;
+            }
+
+        .left button{
+            margin-top: 20px;
+            width: 150px;
+            height: 50px;
+            background-color: #0e72cc;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .left h1{
+            font-size: 60px;
+            margin-top: 80px;
+            font-weight: bold;
+        }
+        .left p{
+            font-size: 35px;
+            font-weight:lighter;
+        }
+
+        /* secton02 css file */
+        .container .card-box{
+            margin-top: 50px;
+            padding: 10px;
+            display: flex;
+            width: 100%;
+            height: 40vh;
+            border-radius: 8px;
+            box-sizing: border-box;
+            justify-content:space-around;
+            }
+
+           
+        .card1{
+            width: 380px;
+            height: 190px;
+            background-color: #e955c4;
+            border-radius: 8px;
+            color: white;
+        }
+
+        .card1 h1{
+            font-size: 30px;
+            margin-top: 15px;
+            font-weight: bold;
+            margin-left: 18px;
+        }
+
+        .card1 h2{
+            text-align: left;
+            margin-left: 18px;
+            font-size: 22px;
+            margin-top: 10px;
+            font-weight:lighter;
+        }
+
+        .card2{
+            width: 380px;
+            height: 190px;
+            background-color: #09c2e2;
+            border-radius: 8px;
+            color: white;
+        }
+        .card2 h1{
+            font-size: 30px;
+            margin-top: 15px;
+            font-weight: bold;
+            margin-left: 18px;
+        }
+
+        .card2 h2{
+            text-align: left;
+            font-size: 22px;
+            margin-top: 10px;
+            font-weight:lighter;
+            margin-left: 18px;
+        }
+
+        .card3{
+            width: 380px;
+            height: 190px;
+            background-color: #184aee;
+            border-radius: 8px;
+            color: white;
+        }
+
+        .card3 h1{
+            font-size: 30px;
+            margin-top: 15px;
+            font-weight: bold;
+            margin-left: 18px;
+        }
+
+        .card3 h2{
+            text-align: left;
+            font-size: 22px;
+            margin-top: 10px;
+            font-weight:lighter;
+            margin-left: 18px;
+        }
+
+
+        /* secton03 css file */
+    .sec03{
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    border-radius: 8px;
+    }
+
+    .sec03 .left .right{
+        flex-basis: 50%;
+    }
+    .sec03 .right{ background: url(../img/2.PNG) center center no-repeat;
+        background-size: cover;
+        margin-right: 100px;
+        }
+        .sec03 .left{
+            margin-left: 70px;
+            color: #0e72cc;
+            }
+            .h h2{
+                text-align: left;
+                margin-left: 10px;
+                font-weight:lighter;
+                color:gray;
+
+            }
+
+        .sec03 .left button{
+            margin-top: 20px;
+            width: 150px;
+            height: 50px;
+            background-color: #0e72cc;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .sec03 .left h1{
+            font-size: 60px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .sec03 .left p{
+            font-size: 20px;
+            font-weight:lighter;
+            color: gray;
+        }
+
+        /* secton04 css file */
+    .sec04{
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    /* background-color: #09c2e2; */
+    border-radius: 8px;
+    }
+    
+
+    .sec04 .left .right{
+        flex-basis: 50%;
+        justify-content:center;
+    }
+    /* .sec04 .left{ background: url(../img/3.PNG) center center no-repeat;
+        background-size: cover;
+        } */
+        .sec04 .left{
+            margin-left: 5px;
+        }
+        .img03{
+            width: 800px;
+            height: 60vh;
+        }
+        .sec04 .right{
+            margin-right: 20px;
+            color: #0e72cc;
+            }
+            .sec04 .h h2{
+                text-align: left;
+                margin-left: 10px;
+                margin-top: 30px;
+                font-weight:lighter;
+                color:gray;
+
+            }
+           
+
+        .sec04 .right button{
+            margin-top: 20px;
+            width: 150px;
+            height: 50px;
+            background-color: #0e72cc;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .sec04 .right h1{
+            font-size: 60px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .sec04 .right p{
+            font-size: 20px;
+            margin-top: 10px;
+            font-weight:lighter;
+            color: gray;
+        }
+
+        .sec04 .right{
+            margin-left: 120px;
+        }
+
+
+         /* secton05 css file */
+    .sec05{
+        margin-top: 50px;
+        padding: 10px;
+        display: flex;
+        width: 100%;
+        height: 75vh;
+        border-radius: 8px;
+        }
+    
+        .sec05 .left .right{
+            flex-basis: 50%;
+        }
+        .sec05 .right{ background: url(../img/4.PNG) center center no-repeat;
+            background-size: cover;
+            margin-right: 100px;
+            }
+            .sec05 .left{
+                margin-left: 70px;
+                color: #0e72cc;
+                }
+                .sec05 .h h2{
+                    text-align: left;
+                    margin-left: 10px;
+                    font-weight:lighter;
+                    color:gray;
+    
+                }
+    
+            .sec05 .left button{
+                margin-top: 20px;
+                width: 150px;
+                height: 50px;
+                background-color: #0e72cc;
+                color: white;
+                font-weight: bold;
+                font-size: 16px;
+            }
+    
+            .sec05 .left h1{
+                font-size: 60px;
+                margin-top: 20px;
+                font-weight: bold;
+            }
+            .sec05 .left p{
+                font-size: 20px;
+                font-weight:lighter;
+                color: gray;
+            }
+
+
+             /* secton06 css file */
+    .sec06{
+        margin-top: 50px;
+        padding: 10px;
+        display: flex;
+        width: 100%;
+        height: 60vh;
+        /* background-color: #09c2e2; */
+        border-radius: 8px;
+        }
+        
+    
+        .sec06 .left .right{
+            flex-basis: 50%;
+            justify-content:center;
+        }
+        /* .sec04 .left{ background: url(../img/3.PNG) center center no-repeat;
+            background-size: cover;
+            } */
+            .sec06 .left{
+                margin-left: 5px;
+            }
+            .img04{
+                width: 800px;
+                height: 60vh;
+            }
+            .sec06 .right{
+                margin-right: 20px;
+                color: #0e72cc;
+                }
+                .sec06 .h h2{
+                    text-align: left;
+                    margin-left: 10px;
+                    margin-top: 30px;
+                    font-weight:lighter;
+                    color:gray;
+    
+                }
+               
+    
+            .sec06 .right button{
+                margin-top: 20px;
+                width: 150px;
+                height: 50px;
+                background-color: #0e72cc;
+                color: white;
+                font-weight: bold;
+                font-size: 16px;
+            }
+    
+            .sec06 .right h1{
+                font-size: 60px;
+                margin-top: 20px;
+                font-weight: bold;
+            }
+            .sec06 .right p{
+                font-size: 20px;
+                margin-top: 10px;
+                font-weight:lighter;
+                color: gray;
+            }
+    
+            .sec06 .right{
+                margin-left: 120px;
+            }
+
+
+
+
+
+
+
+
+
+  
+  
+   
